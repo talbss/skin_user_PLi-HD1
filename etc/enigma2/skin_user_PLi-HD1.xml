@@ -1,5 +1,79 @@
 <skin>
 
+    <!-- colors Template -->
+
+  <colors>
+    <color name="background" value="#00000000"/>
+    <color name="black" value="#00000000"/>
+    <color name="blue" value="#00879ce1"/>
+    <color name="darkblue" value="#00000020"/>
+    <color name="bluetransparent" value="#08001e4b"/>
+    <color name="dark" value="#00242424"/>
+    <color name="darkgrey" value="#00555556"/>
+    <color name="foreground" value="#00f0f0f0"/>
+    <color name="green" value="#0056c856"/>
+    <color name="greentransparent" value="#08004c00"/>
+    <color name="grey" value="#00aaaaaa"/>
+    <color name="infobarBG" value="#41080808"/>
+    <color name="listbox" value="#000f56a4"/>
+    <color name="noTransBG" value="#00101214"/>
+    <color name="orange" value="#00ffc000"/>
+    <color name="rds_text_bg" value="#00003258"/>
+    <color name="red" value="#00ff4a3c"/>
+    <color name="redtransparent" value="#084c0000"/>
+    <color name="rssviewtop" value="#00005050"/>
+    <color name="secondBG" value="#18101214"/>
+    <color name="secondFG" value="#00e5b243"/>
+    <color name="selectedBG" value="#06303240"/>
+    <color name="selectedFG" value="#00e5b243"/>
+    <color name="transparent" value="#ff000000"/>
+    <color name="transpBlack" value="#54111112"/>
+    <color name="transpDark" value="#54242424"/>
+    <color name="transpWhite" value="#70f0f0f0"/>
+    <color name="un33333a" value="#0033333a"/>
+    <color name="un40a0aa0" value="#040a0aa0"/>
+    <color name="un4a00a0a" value="#04a00a0a"/>
+    <color name="uncccccc" value="#00cccccc"/>
+    <color name="white" value="#00f0f0f0"/>
+    <color name="yellow" value="#00e5b243"/>
+    <color name="yellowsoft" value="#00e5b243"/>
+    <color name="yellowtransparent" value="#084b4b00"/>
+  </colors>
+
+    <!-- windowstyle Template -->
+  
+    <windowstyle id="0" type="skinned">
+    <title offset="20,10" font="Regular;20"/>
+    <color name="Background" color="background"/>
+    <color name="LabelForeground" color="foreground"/>
+    <color name="ListboxBackground" color="background"/>
+    <color name="ListboxForeground" color="foreground"/>
+    <color name="ListboxSelectedBackground" color="background"/>
+    <color name="ListboxSelectedForeground" color="selectedFG"/>
+    <color name="ListboxMarkedBackground" color="un40a0aa0"/>
+    <color name="ListboxMarkedForeground" color="red"/>
+    <color name="ListboxMarkedAndSelectedBackground" color="un4a00a0a"/>
+    <color name="ListboxMarkedAndSelectedForeground" color="red"/>
+    <color name="WindowTitleForeground" color="foreground"/>
+    <color name="WindowTitleBackground" color="background"/>
+    <borderset name="bsWindow">
+      <pixmap filename="PLi-HD/window/top_left_corner.png" pos="bpTopLeft"/>
+      <pixmap filename="PLi-HD/window/top_edge.png" pos="bpTop"/>
+      <pixmap filename="PLi-HD/window/top_right_corner.png" pos="bpTopRight"/>
+      <pixmap filename="PLi-HD/window/left_edge.png" pos="bpLeft"/>
+      <pixmap filename="PLi-HD/window/right_edge.png" pos="bpRight"/>
+      <pixmap filename="PLi-HD/window/bottom_left_corner.png" pos="bpBottomLeft"/>
+      <pixmap filename="PLi-HD/window/bottom_edge.png" pos="bpBottom"/>
+      <pixmap filename="PLi-HD/window/bottom_right_corner.png" pos="bpBottomRight"/>
+    </borderset>
+    <borderset name="bsListboxEntry">
+      <pixmap filename="PLi-HD1-talbs/border/line.png" pos="bpTop"/>
+      <pixmap filename="PLi-HD1-talbs/border/line.png" pos="bpBottom"/>
+      <pixmap filename="PLi-HD1-talbs/border/vline.png" pos="bpLeft"/>
+      <pixmap filename="PLi-HD1-talbs/border/vline.png" pos="bpRight"/>
+    </borderset>
+  </windowstyle>
+  
     <!-- Infobar Template -->
 
   <screen name="InfoBarTemplate">
@@ -226,6 +300,4 @@
     <ePixmap pixmap="PLi-HD/border/smallshadowline.png" position="0,680" size="1280,2"/>
   </screen>
   
-
-
 </skin>

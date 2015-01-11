@@ -67,10 +67,10 @@
       <pixmap filename="PLi-HD/window/bottom_right_corner.png" pos="bpBottomRight"/>
     </borderset>
     <borderset name="bsListboxEntry">
-      <pixmap filename="PLi-HD1-talbs/border/line.png" pos="bpTop"/>
-      <pixmap filename="PLi-HD1-talbs/border/line.png" pos="bpBottom"/>
-      <pixmap filename="PLi-HD1-talbs/border/vline.png" pos="bpLeft"/>
-      <pixmap filename="PLi-HD1-talbs/border/vline.png" pos="bpRight"/>
+      <pixmap filename="PLi-HD1/border/line.png" pos="bpTop"/>
+      <pixmap filename="PLi-HD1/border/line.png" pos="bpBottom"/>
+      <pixmap filename="PLi-HD1/border/vline.png" pos="bpLeft"/>
+      <pixmap filename="PLi-HD1/border/vline.png" pos="bpRight"/>
     </borderset>
   </windowstyle>
   

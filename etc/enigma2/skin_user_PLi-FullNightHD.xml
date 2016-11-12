@@ -237,19 +237,22 @@
 			foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="secondFG"
 			colorServiceDescriptionSelectedFallback="secondFG" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="secondFG"
 			colorServiceDescriptionSelected="foreground" />
-		<widget source="ServiceEvent" render="Label" position="30,528" size="720,30" foregroundColor="foreground" font="Regular;26" valign="center" halign="center" transparent="1" zPosition="1">
+		<widget source="ServiceEvent" render="Label" position="30,528" size="570,30" foregroundColor="foreground" font="Regular;26" valign="center" halign="center" transparent="1" zPosition="1">
 			<convert type="TransponderInfo">NoRoot</convert>
 		</widget>
 		<widget source="ServiceEvent" render="Label" position="30,565" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="left">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Progress" position="120,573" size="540,15" foregroundColor="secondFG" transparent="0" backgroundColor="un33333a" borderWidth="0">
+		<widget source="ServiceEvent" render="Progress" position="120,573" size="390,15" foregroundColor="secondFG" transparent="0" backgroundColor="un33333a" borderWidth="0">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="660,565" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="right">
+		<widget source="ServiceEvent" render="Label" position="510,565" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="right">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget source="ServiceEvent" render="Picon" position="600,528" size="150,90" alphatest="blend" backgroundColor="secondBG" valign="center" halign="center" transparent="1" zPosition="1">
+			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="ServiceEvent" render="Label" position="30,605" size="720,35" transparent="1" foregroundColor="secondFG" noWrap="1" font="Regular;32" halign="left">
 			<convert type="EventName">Name</convert>

@@ -232,8 +232,8 @@
 		<widget name="list" position="780,108" size="1110,900" itemHeight="45" transparent="1" serviceNumberFont="Regular;34"
 			scrollbarMode="showOnDemand" serviceInfoFont="Regular;32" serviceNameFont="Regular;34" serviceItemHeight="45"
 			colorServiceEventProgressbar="secondFG" progressbarHeight="15" progressBarWidth="60"
-            progressPercentWidth="80" colorEventProgressbarBorder="un33333a" fieldMargins="15" nonplayableMargins="15"
-			colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="secondFG" progressbarBorderWidth="0"
+            progressPercentWidth="80" colorEventProgressbarBorder="secondFG" fieldMargins="15" nonplayableMargins="15"
+			colorEventProgressbarBorderSelected="foreground" colorServiceDescription="secondFG" progressbarBorderWidth="1"
 			foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="secondFG"
 			colorServiceDescriptionSelectedFallback="secondFG" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="secondFG"
 			colorServiceDescriptionSelected="foreground" />
